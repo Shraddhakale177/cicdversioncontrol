@@ -8,7 +8,7 @@ This repo demonstrates a minimal Python application with a fully automated CI wo
 ## What is included
 
 1. src/app.py: a tiny CLI that prints a greeting.
-2. 	ests/test_app.py: a single pytest check so CI can verify functionality.
+2. 	tests/test_app.py: a single pytest check so CI can verify functionality.
 3. .github/workflows/ci.yml: the pipeline that installs dependencies and runs the test suite.
 4. docs/branching.md: explains how to work with branches, protect main, and require reviews.
 
